@@ -1,5 +1,5 @@
 <div class="text-right pt-4 pb-4">
-    <a href="#" class="btn btn-link btn-back"><- Regresar atrás</a>
+    <a href="#" class="btn btn-outline-primary btn-back"><i class="fas fa-arrow-left"></i> Regresar atrás</a>
 </div>
 
 <script type="text/javascript">
