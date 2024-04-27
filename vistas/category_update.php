@@ -13,25 +13,25 @@
         $id = limpiar_cadena($id);
 
         /*== Verificando categoría ==*/
-        $check_categoria = conexion();
-        $check_categoria = $check_categoria->query("SELECT * FROM categoria WHERE categoria_id='$id'");
+        $check_almacen = conexion();
+        $check_almacen = $check_almacen->query("SELECT * FROM almacen WHERE almacen_id='$id'");
 
-        if ($check_categoria->rowCount() > 0) {
-            $datos = $check_categoria->fetch();
+        if ($check_almacen->rowCount() > 0) {
+            $datos = $check_almacen->fetch();
     ?>
 
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="form-rest mb-6 mt-6"></div>
             <form action="./php/categoria_actualizar.php" method="POST" class="FormularioAjax" autocomplete="off">
-                <input type="hidden" name="categoria_id" value="<?php echo $datos['categoria_id']; ?>" required>
+                <input type="hidden" name="almacen_id" value="<?php echo $datos['almacen_id']; ?>" required>
                 <div class="form-group">
-                    <label for="categoria_nombre">Nombre</label>
-                    <input id="categoria_nombre" class="form-control" type="text" name="categoria_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required value="<?php echo $datos['categoria_nombre']; ?>">
+                    <label for="almacen_nombre">Nombre</label>
+                    <input id="almacen_nombre" class="form-control" type="text" name="almacen_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required value="<?php echo $datos['almacen_nombre']; ?>">
                 </div>
                 <div class="form-group">
-                    <label for="categoria_ubicacion">Ubicación</label>
-                    <input id="categoria_ubicacion" class="form-control" type="text" name="categoria_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" value="<?php echo $datos['categoria_ubicacion']; ?>">
+                    <label for="almacen_ubicacion">Ubicación</label>
+                    <input id="almacen_ubicacion" class="form-control" type="text" name="almacen_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" value="<?php echo $datos['almacen_ubicacion']; ?>">
                 </div>
                 <p class="text-center">
                     <button type="submit" class="btn btn-success btn-rounded">Actualizar</button>
@@ -44,6 +44,6 @@
         } else {
             include "./inc/error_alert.php";
         }
-        $check_categoria = null;
+        $check_almacen = null;
     ?>
 </div>

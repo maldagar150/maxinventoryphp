@@ -9,12 +9,12 @@
         <div class="col-md-6">
             <form action="./php/categoria_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
                 <div class="form-group">
-                    <label for="categoria_nombre">Nombre</label>
-                    <input id="categoria_nombre" class="form-control" type="text" name="categoria_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required >
+                    <label for="almacen_nombre">Nombre</label>
+                    <input id="categoria_nombre" class="form-control" type="text" name="almacen_nombre" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{4,50}" maxlength="50" required >
                 </div>
                 <div class="form-group">
-                    <label for="categoria_ubicacion">Ubicación</label>
-                    <input id="categoria_ubicacion" class="form-control" type="text" name="categoria_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" >
+                    <label for="almacen_ubicacion">Ubicación</label>
+                    <input id="almacen_ubicacion" class="form-control" type="text" name="almacen_ubicacion" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{5,150}" maxlength="150" >
                 </div>
                 <p class="has-text-centered">
                     <button type="submit" class="btn btn-info btn-rounded">Guardar</button>
