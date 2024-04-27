@@ -1,3 +1,7 @@
+<div class="contenedor-nav">
+        <div class="logo">
+        <img src="img/logo.png" alt="">
+</div>
 <div class="main-container">
 
     <form class="box login" action="" method="POST" autocomplete="off">
