@@ -42,7 +42,7 @@
         </ul>
         <div class="navbar-nav">
             <a href="index.php?vista=user_update&user_id_up=<?php echo $_SESSION['id']; ?>" class="btn btn-primary mr-2">Mi cuenta</a>
-            <a href="index.php?vista=logout" class="btn btn-link">Salir</a>
+            <a href="index.php?vista=logout" class="btn btn-danger">Salir</a>
         </div>
     </div>
 </nav>

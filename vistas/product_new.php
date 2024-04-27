@@ -40,9 +40,9 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="producto_almacen">Categoría</label>
-                    <select class="form-select" id="producto_almacen" name="producto_almacen">
-                        <option value="" selected>Seleccione una opción</option>
+                    <label for="producto_almacen" class="form-label">Seleccione el Almacén</label>
+                        <select class="form-select" id="producto_almacen" name="producto_almacen">
+                            <option value="" selected>Seleccione una opción</option>
                         <?php
                             $almacens = conexion();
                             $almacens = $almacens->query("SELECT * FROM almacen");
