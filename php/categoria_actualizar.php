@@ -93,7 +93,7 @@
     if($actualizar_almacen->execute($marcadores)){
         echo '
             <div class="notification is-info is-light">
-                <strong>¡almacen ACTUALIZADA!</strong><br>
+                <strong>¡ALMACEN ACTUALIZADA!</strong><br>
                 La categoría se actualizo con exito
             </div>
         ';

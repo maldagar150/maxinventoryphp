@@ -4,7 +4,9 @@
 </div>
 
 <div class="container pb-6 pt-6">
-
+    <?php
+    include "./inc/btn_back.php";
+    ?>
     <div class="row justify-content-center">
         <div class="col-md-6">
             <form action="./php/categoria_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
