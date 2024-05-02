@@ -6,6 +6,10 @@
 
 	<div class="form-rest mb-6 mt-6"></div>
 
+	<?php
+    include "./inc/btn_back.php";
+    ?>
+
 	<form action="./php/usuario_guardar.php" method="POST" class="FormularioAjax" autocomplete="off" >
 		<div class="row">
 		  	<div class="col-md-6">
