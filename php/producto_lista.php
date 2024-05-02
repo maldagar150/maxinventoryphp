@@ -39,14 +39,10 @@
 		$pag_inicio=$inicio+1;
 		foreach($datos as $rows){
 			$tabla.='
-				<article class="media">
-			        <figure class="media-left">
-			            <p class="image is-64x64">';
-			            if(is_file("./img/producto/".$rows['producto_foto'])){
-			            	$tabla.='<img src="./img/producto/'.$rows['producto_foto'].'">';
-			            }else{
-			            	$tabla.='<img src="./img/producto.png">';
-			            }
+			<article class="media">
+			<figure class="media-left">
+				<img src="' . (is_file("./img/producto/" . $rows['producto_foto']) ? "./img/producto/" . $rows['producto_foto'] : "./img/producto.png") . '" class="img-fluid" style="width: 100px; height: 100px;" alt="Producto">
+			</figure>';
 			   $tabla.='</p>
 			        </figure>
 			        <div class="media-content">
