@@ -54,10 +54,10 @@
                     <td>'.$rows['usuario_usuario'].'</td>
                     <td>'.$rows['usuario_email'].'</td>
                     <td>
-                        <a href="index.php?vista=user_update&user_id_up='.$rows['usuario_id'].'" class="button is-success is-rounded is-small">Actualizar</a>
+                        <a href="index.php?vista=user_update&user_id_up='.$rows['usuario_id'].'" class="btn btn-warning">Actualizar</a>
                     </td>
                     <td>
-                        <a href="'.$url.$pagina.'&user_id_del='.$rows['usuario_id'].'" class="button is-danger is-rounded is-small">Eliminar</a>
+                        <a href="'.$url.$pagina.'&user_id_del='.$rows['usuario_id'].'" class="btn btn-danger">Eliminar</a>
                     </td>
                 </tr>
             ';

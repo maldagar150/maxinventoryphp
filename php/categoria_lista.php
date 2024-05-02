@@ -51,13 +51,13 @@
                     <td>'.$rows['almacen_nombre'].'</td>
                     <td>'.substr($rows['almacen_ubicacion'],0,25).'</td>
                     <td>
-                        <a href="index.php?vista=product_category&category_id='.$rows['almacen_id'].'" class="button is-link is-rounded is-small">Ver productos</a>
+                        <a href="index.php?vista=product_category&category_id='.$rows['almacen_id'].'" class="btn btn-success">Ver productos</a>
                     </td>
                     <td>
-                        <a href="index.php?vista=category_update&category_id_up='.$rows['almacen_id'].'" class="button is-success is-rounded is-small">Actualizar</a>
+                        <a href="index.php?vista=category_update&category_id_up='.$rows['almacen_id'].'" class="btn btn-warning">Actualizar</a>
                     </td>
                     <td>
-                        <a href="'.$url.$pagina.'&category_id_del='.$rows['almacen_id'].'" class="button is-danger is-rounded is-small">Eliminar</a>
+                        <a href="'.$url.$pagina.'&category_id_del='.$rows['almacen_id'].'" class="btn btn-danger">Eliminar</a>
                     </td>
                 </tr>
             ';
