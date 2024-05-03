@@ -21,7 +21,7 @@
 	    	if($eliminar_almacen->rowCount()==1){
 		        echo '
 		            <div class="notification is-info is-light">
-		                <strong>¡almacen ELIMINADA!</strong><br>
+		                <strong>¡ALMACEN ELIMINADA!</strong><br>
 		                Los datos de la categoría se eliminaron con exito
 		            </div>
 		        ';
