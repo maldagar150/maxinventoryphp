@@ -1,11 +1,7 @@
-<div class="contenedor-nav">
-        <div class="logo">
-        <img src="img/logo.png" alt="">
-</div>
 <div class="main-container">
 
     <form class="box login" action="" method="POST" autocomplete="off">
-        <h5 class="title is-5 has-text-centered is-uppercase">Max Inventory</h5>
+        <img src="./img/logo.png" width="200" height="60" alt="Logo">
 
         <div class="form-group">
             <label for="login_usuario" class="label">Usuario</label>
