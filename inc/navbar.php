@@ -1,6 +1,49 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+<head>
+<style>
+        .navbar {
+            background: linear-gradient(45deg, #1e90ff, #00bfff); /* Degradado de color */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+        .navbar-brand img {
+            width: 150px; /* Ajustar el tamaño del logo */
+            height: auto;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important; /* Color de texto blanco */
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ffeb3b !important; /* Color de texto al pasar el cursor */
+        }
+        .dropdown-menu {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+        }
+        .dropdown-item:hover {
+            background-color: #1e90ff; /* Fondo al pasar el cursor */
+            color: #fff !important; /* Color de texto blanco al pasar el cursor */
+        }
+        .btn-primary, .btn-danger {
+            border-radius: 20px; /* Botones redondeados */
+        }
+        .btn-primary {
+            background-color: #ffeb3b; /* Color de botón personalizado */
+            border: none;
+            color: #333;
+        }
+        .btn-primary:hover {
+            background-color: #ffd700; /* Color al pasar el cursor */
+        }
+        .btn-danger {
+            background-color: #ff4d4d; /* Color de botón personalizado */
+            border: none;
+        }
+        .btn-danger:hover {
+            background-color: #ff1a1a; /* Color al pasar el cursor */
+        }
+    </style>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light" role="navigation">
     <a class="navbar-brand" href="index.php?vista=home">
-        <img src="./img/logo.png" width="200" height="60" alt="Logo">
+        <img src="./img/logo.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBasicExample" aria-controls="navbarBasicExample" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

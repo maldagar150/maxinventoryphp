@@ -53,7 +53,7 @@
 <div class="main-container">
 
     <form class="box login" action="" method="POST" autocomplete="off">
-        <img src="./img/logo.png" width="200" height="60" alt="Logo">
+        <img src="./img/logo.png">
 
         <div class="form-group">
             <label for="login_usuario" class="label">Usuario</label>
