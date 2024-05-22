@@ -11,34 +11,6 @@
         .navbar-nav .nav-link {
             color: #fff !important; /* Color de texto blanco */
         }
-        .navbar-nav .nav-link:hover {
-            color: #ffeb3b !important; /* Color de texto al pasar el cursor */
-        }
-        .dropdown-menu {
-            background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
-        }
-        .dropdown-item:hover {
-            background-color: #1e90ff; /* Fondo al pasar el cursor */
-            color: #fff !important; /* Color de texto blanco al pasar el cursor */
-        }
-        .btn-primary, .btn-danger {
-            border-radius: 20px; /* Botones redondeados */
-        }
-        .btn-primary {
-            background-color: #ffeb3b; /* Color de botón personalizado */
-            border: none;
-            color: #333;
-        }
-        .btn-primary:hover {
-            background-color: #ffd700; /* Color al pasar el cursor */
-        }
-        .btn-danger {
-            background-color: #ff4d4d; /* Color de botón personalizado */
-            border: none;
-        }
-        .btn-danger:hover {
-            background-color: #ff1a1a; /* Color al pasar el cursor */
-        }
     </style>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light" role="navigation">
